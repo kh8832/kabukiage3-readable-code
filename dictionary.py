@@ -1,7 +1,7 @@
 import argparse
 
-parser = argparse.ArgumentParser(description='このプログラムの説明')
-parser.add_argument('--fn', default=None, help='file name')
+parser = argparse.ArgumentParser(description="このプログラムの説明")
+parser.add_argument("--fn", default=None, help="file name")
 parser.parse_args()
 
 
@@ -10,8 +10,8 @@ def readwords(fn):
     f = open(fn, "r", encoding="utf-8")
     wordlist = f.readlines()
     for word in wordlist:
-        word = word.rstrip('\n')
-        print (word)
+        word = word.rstrip("\n")
+        print(word)
 
     f.close()
 

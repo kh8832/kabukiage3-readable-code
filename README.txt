@@ -5,7 +5,5 @@
 * 南木春希（kabukiage3）
 
 
-仕様２：dictionary.pyの実行手順
-// リポジトリをクローン
-% git clone https://github.com/kabukiage3/kabukiage3-readable-code.git
-% python dictionary.py
+仕様3：dictionary.pyの実行手順
+% python dictionary.py --fn dictionary-data.txt
