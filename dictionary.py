@@ -25,6 +25,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     fn = args.fn
     input_id = args.id
-    
-    
+
     readwords(fn,input_id)
