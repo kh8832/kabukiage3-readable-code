@@ -9,9 +9,9 @@ def readwords(fn):
     
     f = open(fn, "r", encoding="utf-8")
     wordlist = f.readlines()
-    for word in wordlist:
+    for id,word in enumerate(wordlist,1):
         word = word.rstrip("\n")
-        print(word)
+        print(str(id)+":"+word)
 
     f.close()
 
