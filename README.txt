@@ -5,5 +5,5 @@
 * 南木春希（kabukiage3）
 
 
-仕様3：dictionary.pyの実行手順
+仕様4：dictionary.pyの実行手順
 % python dictionary.py --fn dictionary-data.txt
